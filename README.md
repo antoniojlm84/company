@@ -12,3 +12,5 @@ git clone https://github.com/antoniojlm84/company.git
 cd company
 
 php composer.phar install
+
+php app/console assets:install
