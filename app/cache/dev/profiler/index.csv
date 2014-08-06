@@ -1,0 +1,6 @@
+c7f1b4,127.0.0.1,GET,http://des.company.com/app_dev.php/,1407243037,
+0df22f,127.0.0.1,GET,http://des.company.com/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DBackendBundle%253ADefault%253Amenu,1407243037,c7f1b4
+f0057e,127.0.0.1,GET,http://des.company.com/app_dev.php/,1407243063,
+c537ad,127.0.0.1,GET,http://des.company.com/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DBackendBundle%253ADefault%253Amenu,1407243063,f0057e
+6c2314,127.0.0.1,GET,http://des.company.com/app_dev.php/,1407306128,
+1bf809,127.0.0.1,GET,http://des.company.com/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DBackendBundle%253ADefault%253Amenu,1407306126,6c2314

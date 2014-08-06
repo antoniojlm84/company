@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block metasbase %}{% endblock %}
+    	{% block metas %}{% endblock %}
+        {% block stylesheets %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </head>
+    <body class="{% block schema %}{% endblock %}">
+        {% block body %}{% endblock %}
+        {% block jsadhoc %}{% endblock %}
+    </body>
+</html>
