@@ -43,3 +43,8 @@ vendor
 #web assets#
 ############
 web/bundles
+
+#cache and logs#
+################
+app/cache
+app/logs

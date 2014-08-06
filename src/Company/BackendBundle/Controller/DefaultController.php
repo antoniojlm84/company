@@ -3,6 +3,7 @@
 namespace Company\BackendBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request; 
 
 class DefaultController extends Controller
 {
@@ -13,6 +14,7 @@ class DefaultController extends Controller
 
     public function menuAction()
     {
-        return $this->render('BackendBundle:Default:menu.html.twig', array());
+        return $this->render('BackendBundle:Default:menu.html.twig', 
+            array());
     }
 }

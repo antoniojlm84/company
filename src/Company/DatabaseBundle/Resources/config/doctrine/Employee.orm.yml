@@ -1,0 +1,49 @@
+Company\DatabaseBundle\Entity\Employee:
+    type: entity
+    table: employee
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        name:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        occupation:
+            type: string
+            nullable: true
+            length: 20
+            fixed: false
+            comment: ''
+        phone:
+            type: string
+            nullable: true
+            length: 15
+            fixed: false
+            comment: ''
+    manyToMany:
+        office:
+            targetEntity: Office
+            cascade: {  }
+            mappedBy: null
+            inversedBy: employee
+            joinTable:
+                name: employee_office
+                joinColumns:
+                    -
+                        name: employee_id
+                        referencedColumnName: id
+                inverseJoinColumns:
+                    -
+                        name: office_id
+                        referencedColumnName: id
+            orderBy: null
+    lifecycleCallbacks: {  }

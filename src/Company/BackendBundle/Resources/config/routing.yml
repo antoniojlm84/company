@@ -1,3 +1,7 @@
 backend_homepage:
     path:     /
     defaults: { _controller: BackendBundle:Default:index }
+
+backend_employees_list:
+    path:     /employees-list
+    defaults: { _controller: BackendBundle:Employees:index}

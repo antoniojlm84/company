@@ -1,4 +1,8 @@
+database:
+    resource: "@DatabaseBundle/Resources/config/routing.yml"
+    prefix:   /
+
 backend:
     resource: "@BackendBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /backend
 

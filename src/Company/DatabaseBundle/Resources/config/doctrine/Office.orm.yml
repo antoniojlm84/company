@@ -1,0 +1,28 @@
+Company\DatabaseBundle\Entity\Office:
+    type: entity
+    table: office
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        address:
+            type: string
+            nullable: false
+            length: 200
+            fixed: false
+            comment: ''
+    manyToMany:
+        employee:
+            targetEntity: Employee
+            cascade: {  }
+            mappedBy: office
+            inversedBy: null
+            joinTable: null
+            orderBy: null
+    lifecycleCallbacks: {  }
